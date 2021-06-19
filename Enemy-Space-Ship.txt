@@ -1,0 +1,350 @@
+void enemySpaceship_1(){
+
+    glColor3f(0,0,1);
+    glBegin(GL_POLYGON);
+        glVertex2f(-30, 10);
+        glVertex2f(30, 10);
+        glVertex2f(20, 0);
+        glVertex2f(-20, 0);
+    glEnd();
+
+    glColor3f(1,0,0);
+    glBegin(GL_POLYGON);
+        glVertex2f(-20, 0);
+        glVertex2f(20, 0);
+        glVertex2f(0, -25);
+    glEnd();
+
+    glColor3f(1,0,1);
+    glBegin(GL_POLYGON);
+        glVertex2f(10, 20);
+        glVertex2f(20, 20);
+        glVertex2f(20, 10);
+        glVertex2f(10, 10);
+    glEnd();
+
+    glBegin(GL_POLYGON);
+        glVertex2f(-20, 20);
+        glVertex2f(-10, 20);
+        glVertex2f(-10, 10);
+        glVertex2f(-20, 10);
+    glEnd();
+
+    glColor3f(1,1,1);
+    glBegin(GL_POLYGON);
+        glVertex2f(15, 30);
+        glVertex2f(25, 20);
+        glVertex2f(5, 20);
+
+    glEnd();
+    glBegin(GL_POLYGON);
+        glVertex2f(-15, 30);
+        glVertex2f(-5, 20);
+        glVertex2f(-25, 20);
+    glEnd();
+
+}
+
+
+
+
+
+
+
+
+
+
+
+void enemySpaceship_2(){
+
+    glColor3f(0,0,1);
+    glBegin(GL_POLYGON);
+        glVertex2f(2, -8);
+        glVertex2f(2, -12);
+        glVertex2f(-2, -12);
+        glVertex2f(-2, -8);
+    glEnd();
+
+    glColor3f(0,0,1);
+    glBegin(GL_POLYGON);
+        glVertex2f(2, -12);
+        glVertex2f(5, -16);
+        glVertex2f(2, -20);
+        glVertex2f(-2, -20);
+        glVertex2f(-5, -16);
+        glVertex2f(-2, -12);
+    glEnd();
+
+    glBegin(GL_POLYGON);
+        glVertex2f(2, -20);
+        glVertex2f(2, -28);
+        glVertex2f(-2, -28);
+        glVertex2f(-2, -20);
+    glEnd();
+
+    glColor3f(0,0,1);
+    glBegin(GL_POLYGON);
+        glVertex2f(30, 0);
+        glVertex2f(0, -9);
+        glVertex2f(-30, 0);
+    glEnd();
+
+    glColor3f(0,1,0);
+    glBegin(GL_POLYGON);
+        glVertex2f(30, 0);
+        glVertex2f(7, -16);
+        glVertex2f(2, -10);
+        glVertex2f(2, -8);
+    glEnd();
+
+    glColor3f(0,1,0);
+    glBegin(GL_POLYGON);
+        glVertex2f(-30, 0);
+        glVertex2f(-7, -16);
+        glVertex2f(-2, -10);
+        glVertex2f(-2, -8);
+    glEnd();
+
+    glColor3f(1,0,0);
+    glBegin(GL_POLYGON);
+        glVertex2f(3, 25);
+        glVertex2f(9, 11);
+        glVertex2f(3, 5);
+        glVertex2f(-3, 5);
+        glVertex2f(-9, 11);
+        glVertex2f(-3, 25);
+    glEnd();
+
+    glColor3f(1,0,0);
+    glBegin(GL_POLYGON);
+        glVertex2f(3, 5);
+        glVertex2f(3, 0);
+        glVertex2f(-3, 0);
+        glVertex2f(-3, 5);
+    glEnd();
+
+    glColor3f(1,1,1);
+    glBegin(GL_POLYGON);
+        glVertex2f(9, 11);
+        glVertex2f(30, 0);
+        glVertex2f(3, 0);
+        glVertex2f(3, 5);
+    glEnd();
+
+    glColor3f(1,1,1);
+    glBegin(GL_POLYGON);
+        glVertex2f(-9, 11);
+        glVertex2f(-30, 0);
+        glVertex2f(-3, 0);
+        glVertex2f(-3, 5);
+    glEnd();
+
+    glColor3f(0,0.8,0.8);
+    glBegin(GL_POLYGON);
+        glVertex2f(9, 11);
+        glVertex2f(30, 11);
+        glVertex2f(30, 0);
+    glEnd();
+
+    glBegin(GL_POLYGON);
+        glVertex2f(-9, 11);
+        glVertex2f(-30, 11);
+        glVertex2f(-30, 0);
+    glEnd();
+
+    glBegin(GL_POLYGON);
+        glVertex2f(30, 11);
+        glVertex2f(35, 16);
+        glVertex2f(60, 16);
+        glVertex2f(30, 0);
+    glEnd();
+
+    glBegin(GL_POLYGON);
+        glVertex2f(-30, 11);
+        glVertex2f(-35, 16);
+        glVertex2f(-60, 16);
+        glVertex2f(-30, 0);
+    glEnd();
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+void enemySpaceship_3(){
+
+    glColor3f(0,1,0);
+    glBegin(GL_POLYGON);
+        glVertex2f(30, 0);
+        glVertex2f(30, -4);
+        glVertex2f(-30, -4);
+        glVertex2f(-30, 0);
+    glEnd();
+
+    glColor3f(0,0,1);
+    glBegin(GL_POLYGON);
+        glVertex2f(40, 8);
+        glVertex2f(35, 0);
+        glVertex2f(-35, 0);
+        glVertex2f(-40, 8);
+    glEnd();
+
+    glColor3f(1,1,0);
+    glBegin(GL_POLYGON);
+        glVertex2f(50, 20);
+        glVertex2f(50, 8);
+        glVertex2f(-50, 8);
+        glVertex2f(-50, 20);
+    glEnd();
+
+    glColor3f(1,0,0);
+    glBegin(GL_POLYGON);
+        glVertex2f(30, 50);
+        glVertex2f(40, 50);
+        glVertex2f(40, 16);
+        glVertex2f(30, 16);
+    glEnd();
+
+    glColor3f(1,0,0);
+    glBegin(GL_POLYGON);
+        glVertex2f(-30, 50);
+        glVertex2f(-40, 50);
+        glVertex2f(-40, 16);
+        glVertex2f(-30, 16);
+    glEnd();
+
+    glColor3f(0,0.8,0.8);
+    glBegin(GL_POLYGON);
+        glVertex2f(0, 50);
+        glVertex2f(35, 16);
+        glVertex2f(-35, 16);
+    glEnd();
+
+    glColor3f(0,1,0);
+    glBegin(GL_POLYGON);
+        glVertex2f(2, -4);
+        glVertex2f(2, -28);
+        glVertex2f(-2, -28);
+        glVertex2f(-2, -4);
+    glEnd();
+
+    glColor3f(1,0,0);
+    glBegin(GL_POLYGON);
+        glVertex2f(8, -28);
+        glVertex2f(8, -42);
+        glVertex2f(-8, -42);
+        glVertex2f(-8, -28);
+    glEnd();
+
+    glColor3f(1,1,0);
+    glBegin(GL_POLYGON);
+        glVertex2f(28, -40);
+        glVertex2f(28, -55);
+        glVertex2f(22, -55);
+        glVertex2f(22, -40);
+    glEnd();
+
+    glColor3f(0.2,0,0.4);
+    glBegin(GL_POLYGON);
+        glVertex2f(25, -4);
+        glVertex2f(25, -47);
+        glVertex2f(15, -47);
+        glVertex2f(15, -4);
+    glEnd();
+
+    glColor3f(0.2,0,0.4);
+    glBegin(GL_POLYGON);
+        glVertex2f(-25, -4);
+        glVertex2f(-25, -47);
+        glVertex2f(-15, -47);
+        glVertex2f(-15, -4);
+    glEnd();
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+void enemySpaceship_4(){
+
+    glColor3f(1,0,0);
+    glBegin(GL_POLYGON);
+        glVertex2f(0, -15);
+        glVertex2f(8, -22.5);
+        glVertex2f(0, -30);
+        glVertex2f(-8, -22.5);
+    glEnd();
+
+    glColor3f(0,1,0);
+    glBegin(GL_POLYGON);
+        glVertex2f(18, 30);
+        glVertex2f(50, 0);
+        glVertex2f(30, 0);
+    glEnd();
+    glBegin(GL_POLYGON);
+        glVertex2f(50, 0);
+        glVertex2f(10, -40);
+        glVertex2f(30, 0);
+    glEnd();
+    glBegin(GL_POLYGON);
+        glVertex2f(-18, 30);
+        glVertex2f(-50, 0);
+        glVertex2f(-30, 0);
+    glEnd();
+    glBegin(GL_POLYGON);
+        glVertex2f(-50, 0);
+        glVertex2f(-10, -40);
+        glVertex2f(-30, 0);
+    glEnd();
+
+    glColor3f(0,0.8,0.8);
+    glBegin(GL_POLYGON);
+        glVertex2f(30, 0);
+        glVertex2f(30, -3);
+        glVertex2f(8, -22.5);
+        glVertex2f(5, -19.5);
+    glEnd();
+
+    glColor3f(0,0.8,0.8);
+    glBegin(GL_POLYGON);
+        glVertex2f(15, 30);
+        glVertex2f(18, 30);
+        glVertex2f(8, -22.5);
+        glVertex2f(5, -19.5);
+    glEnd();
+
+    glColor3f(0,0.8,0.8);
+    glBegin(GL_POLYGON);
+        glVertex2f(-30, 0);
+        glVertex2f(-30, -3);
+        glVertex2f(-8, -22.5);
+        glVertex2f(-5, -19.5);
+    glEnd();
+
+    glColor3f(0,0.8,0.8);
+    glBegin(GL_POLYGON);
+        glVertex2f(-15, 30);
+        glVertex2f(-18, 30);
+        glVertex2f(-8, -22.5);
+        glVertex2f(-5, -19.5);
+    glEnd();
+
+}
